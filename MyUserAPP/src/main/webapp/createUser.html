@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+<link
+	href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap"
+	rel="stylesheet">
+<link rel="stylesheet" href="styles/create.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row justify-content-center">
+					<div class="push-spaces">
+						<h2>Welcome</h2>
+						<div class="container">
+
+							<div class="bg-faded p-4 my-4">
+								<hr class="divider">
+								<h2 class="text-center text-lg text-uppercase my-0">
+									<strong>Register</strong>
+								</h2>
+								<p>
+									<a href="login.html">Already Have an account?</a>
+								</p>
+								<hr class="divider">
+								<!--   this is what we are controlling -->
+								<form action=CreateUserServlet method=post>
+									<div class="row">
+										<div class="form-group col-lg-6">
+											<label class="text-heading">Username</label> <input type=text
+												name=username class="form-control">
+										</div>
+										<div class="form-group col-lg-6">
+											<label class="text-heading">First Name</label> <input
+												type=text name=firstname class="form-control">
+										</div>
+										<div class="form-group col-lg-4">
+											<label class="text-heading">Last Name</label> <input
+												type=text name=lastname class="form-control">
+										</div>
+										<div class="form-group col-lg-4">
+											<label class="text-heading">Email</label> <input type=email
+												name=email class="form-control">
+										</div>
+										<div class="form-group col-lg-4">
+											<label class="text-heading">Password</label> <input
+												type=password name=password class="form-control">
+										</div>
+										<div class="form-group col-lg-4">
+											<label class="text-heading">Initial Deposit:</label> <input
+												type=text name=balance class="form-control">
+										</div>
+							
+										<div class="form-group col-lg-12">
+											<input type=submit value="Create" class="btn btn-secondary">
+											<input type=reset value=Clear class="btn btn-secondary">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+				
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	crossorigin="anonymous"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	crossorigin="anonymous"></script>
+
+</html>

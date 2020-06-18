@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	background-image: url("https://images.unsplash.com/photo-1463595709917-93fb36118407?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+	
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 30%;
+	
+}
+.push-spaces {
+	height: 10px;
+}
